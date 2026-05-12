@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "routes": [
+    {"id": "casual_candid", "allowed_setting_tags": ["urban", "interior", "outdoor", "daylight", "bookish"], "allowed_outfit_tags": ["casual", "flirty", "separates", "dress"], "allowed_pose_tags": ["standing", "movement", "seated"], "allowed_light_tags": ["daylight", "soft", "warm"], "banned_tags": ["latex", "heavy_neon", "hard_fantasy"], "style_intensity": "mild_to_medium"},
+    {"id": "slutty_lifestyle", "allowed_setting_tags": ["urban", "coastal", "luxury", "outdoor", "interior"], "allowed_outfit_tags": ["slutty", "dress", "separates", "swimwear"], "allowed_pose_tags": ["standing", "movement", "seated"], "allowed_light_tags": ["daylight", "warm", "night"], "banned_tags": ["corporate", "gritty_documentary"], "style_intensity": "medium_to_high"},
+    {"id": "studio_portrait", "allowed_setting_tags": ["studio", "controlled"], "allowed_outfit_tags": ["dress", "editorial", "separates"], "allowed_pose_tags": ["standing", "seated", "editorial"], "allowed_light_tags": ["studio"], "banned_tags": ["wet", "sand", "rain"], "style_intensity": "medium_to_high"},
+    {"id": "luxury_interior", "allowed_setting_tags": ["interior", "luxury", "hotelized_living", "bathroom", "dressing_space"], "allowed_outfit_tags": ["dress", "flirty", "swimwear"], "allowed_pose_tags": ["standing", "seated", "movement"], "allowed_light_tags": ["daylight", "warm"], "banned_tags": ["sports_field", "arcade"], "style_intensity": "medium"},
+    {"id": "sports_flirt", "allowed_setting_tags": ["sport", "outdoor", "daylight"], "allowed_outfit_tags": ["sporty", "athletic", "separates"], "allowed_pose_tags": ["standing", "movement"], "allowed_light_tags": ["daylight"], "banned_tags": ["latex", "hotelized_living"], "style_intensity": "medium"},
+    {"id": "amateur_phone", "allowed_setting_tags": ["interior", "urban", "daylight"], "allowed_outfit_tags": ["casual", "flirty", "separates"], "allowed_pose_tags": ["standing", "seated"], "allowed_light_tags": ["daylight", "warm"], "banned_tags": ["high_editorial", "fantasy"], "style_intensity": "mild_to_medium"},
+    {"id": "cinematic_night", "allowed_setting_tags": ["night", "urban", "interior", "neon"], "allowed_outfit_tags": ["dress", "editorial", "night"], "allowed_pose_tags": ["standing", "seated"], "allowed_light_tags": ["night", "neon", "warm"], "banned_tags": ["daylight", "tennis"], "style_intensity": "high"},
+    {"id": "fantasy_cosplay", "allowed_setting_tags": ["fantasy"], "allowed_outfit_tags": ["editorial", "fantasy_possible"], "allowed_pose_tags": ["standing", "movement", "editorial"], "allowed_light_tags": ["studio", "night", "daylight"], "banned_tags": ["corporate", "bookish"], "style_intensity": "high"}
+  ]
+}

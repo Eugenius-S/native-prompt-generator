@@ -1,0 +1,15 @@
+{
+  "hair_structures": [],
+  "outfit_families": [],
+  "color_stories": [
+    {
+      "id": "male_charcoal_stone",
+      "layer": "color_story",
+      "value": "charcoal and stone palette",
+      "tags": ["male", "clean", "quiet_luxury"],
+      "weight": 0.14,
+      "status": "draft",
+      "source": "male_seed_2026_04_17"
+    }
+  ]
+}

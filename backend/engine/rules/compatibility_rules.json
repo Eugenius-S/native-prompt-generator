@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "hard_conflicts": [
+    {
+      "id": "wet_skin_in_dry_bookish_space",
+      "if_any_tags": [
+        "wet"
+      ],
+      "and_any_tags": [
+        "bookish",
+        "dry",
+        "office",
+        "dry_studio"
+      ],
+      "severity": "hard",
+      "message": "Wet skin does not belong in a dry bookish or office-like setting by default."
+    },
+    {
+      "id": "swimwear_in_office_like_setting",
+      "if_any_tags": [
+        "swimwear"
+      ],
+      "and_any_tags": [
+        "office",
+        "corporate",
+        "formal_restaurant"
+      ],
+      "severity": "hard",
+      "message": "Swimwear needs pool, beach, spa, resort, or similar context."
+    },
+    {
+      "id": "sand_without_beach_context",
+      "if_any_tags": [
+        "sand"
+      ],
+      "and_not_any_tags": [
+        "beach",
+        "dunes",
+        "coastal"
+      ],
+      "severity": "hard",
+      "message": "Sand details need a beach or dune context."
+    }
+  ],
+  "soft_conflicts": [
+    {
+      "id": "latex_in_cozy_breakfast_nook",
+      "if_any_tags": [
+        "editorial",
+        "night"
+      ],
+      "and_any_tags": [
+        "bookish",
+        "breakfast",
+        "soft_domestic"
+      ],
+      "severity": "soft",
+      "message": "Latex/editorial reads odd in a cozy domestic morning scene."
+    },
+    {
+      "id": "night_out_glam_in_sport_route",
+      "if_any_tags": [
+        "night",
+        "glam"
+      ],
+      "and_any_tags": [
+        "sport",
+        "tennis",
+        "fitness"
+      ],
+      "severity": "soft",
+      "message": "Full night-out glam is slightly mismatched in a sports setup."
+    }
+  ],
+  "required_context": [
+    {
+      "id": "wet_hair_requires_context",
+      "trigger_tags": [
+        "wet"
+      ],
+      "requires_any_tags": [
+        "pool",
+        "beach",
+        "spa",
+        "shower",
+        "rain",
+        "humid"
+      ],
+      "severity": "hard"
+    },
+    {
+      "id": "water_contact_pose_without_wet_outfit",
+      "trigger_tags": [
+        "water_contact_pose"
+      ],
+      "requires_any_tags": [
+        "swimwear",
+        "wet_possible"
+      ],
+      "severity": "hard"
+    },
+    {
+      "id": "post_workout_requires_context",
+      "trigger_tags": [
+        "flush"
+      ],
+      "requires_any_tags": [
+        "sport",
+        "gym",
+        "tennis",
+        "fitness"
+      ],
+      "severity": "hard"
+    },
+    {
+      "id": "windblown_requires_outdoor",
+      "trigger_tags": [
+        "wind"
+      ],
+      "requires_any_tags": [
+        "outdoor",
+        "coastal",
+        "rooftop"
+      ],
+      "severity": "soft"
+    }
+  ],
+  "ethnicity_hair_rules": [
+    {
+      "ethnicity_tag": "black",
+      "natural_hair_palette": [
+        "black_natural",
+        "dark_brown_natural"
+      ],
+      "allowed_dyed_palette": [
+        "blonde_natural",
+        "burgundy_dyed",
+        "electric_blue_dyed",
+        "pastel_pink_dyed",
+        "lavender_dyed",
+        "copper_dyed"
+      ],
+      "disallow_implicit_natural_read": [
+        "natural_ginger",
+        "natural_copper_red"
+      ],
+      "message": "Copper or ginger is only allowed when clearly framed as dyed."
+    }
+  ],
+  "beauty_rules": [
+    {
+      "id": "women_must_read_beautified",
+      "required_any_values": [
+        "beautified and flattering",
+        "beautified with polished glam appeal"
+      ],
+      "severity": "hard",
+      "message": "Women should read beautified even in soft or casual prompts."
+    }
+  ]
+}

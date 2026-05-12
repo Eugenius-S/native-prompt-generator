@@ -1,0 +1,17 @@
+{
+  "hair_structures": [
+    {
+      "id": "long_copper_waves",
+      "layer": "hair_structure",
+      "value": "long polished copper waves",
+      "tags": ["soft", "reserved", "long_hair", "modest_safe"],
+      "weight": 0.18,
+      "status": "draft",
+      "source": "modest_prompts_2026_04_17"
+    }
+  ],
+  "makeup_styles": [],
+  "outfit_families": [],
+  "materials": [],
+  "color_stories": []
+}

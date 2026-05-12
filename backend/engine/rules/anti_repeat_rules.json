@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "memory_windows": {
+    "opening_phrases": 50,
+    "setting_macros": 50,
+    "setting_scene_families": 50,
+    "setting_base_spaces": 50,
+    "setting_scenes": 50,
+    "outfit_families": 50,
+    "pose_families": 50,
+    "camera_framings": 50,
+    "camera_angles": 50,
+    "archetypes": 50
+  },
+  "recent_window": 3,
+  "recent_hard_ban_fields": [
+    "setting_scene_id"
+  ],
+  "recent_similarity_fields": [
+    "scene_family_id",
+    "hair_color_id",
+    "outfit_family_id",
+    "pose_family_id",
+    "camera_framing_id",
+    "lighting_family_id",
+    "setting_macro_id",
+    "setting_micro_id"
+  ],
+  "recent_similarity_reject_at": 4,
+  "similarity_weights": {
+    "setting_macro": 3,
+    "setting_micro": 4,
+    "outfit_family": 3,
+    "pose_family": 3,
+    "camera_framing": 2,
+    "camera_angle": 1,
+    "hair_combo": 2,
+    "archetype": 4
+  },
+  "reject_thresholds": {
+    "hard_repeat_score": 9,
+    "soft_repeat_score": 6
+  },
+  "hard_reject_patterns": [
+    ["setting_macro", "outfit_family", "pose_family"],
+    ["archetype", "opening_phrase_style"]
+  ],
+  "notes": [
+    "Do not rotate the same blonde in pink mini dress logic with only cosmetic edits.",
+    "Do not reuse the same winning location skeleton in back to back batches."
+  ]
+}

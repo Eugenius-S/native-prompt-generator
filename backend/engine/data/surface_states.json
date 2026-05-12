@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "surface_states": [
+    {"id": "dry_clean", "layer": "surface_state", "value": "dry clean skin", "tags": ["dry", "default"], "weight": 1.0},
+    {"id": "wet_skin_sheen", "layer": "surface_state", "value": "subtle wet skin sheen", "tags": ["wet"], "weight": 0.18, "requires_any_tags": ["pool", "beach", "spa", "shower", "rain", "humid"], "forbids_any_tags": ["library", "dry_studio", "office", "winter_chalet"]},
+    {"id": "windblown_hair", "layer": "surface_state", "value": "windblown hair movement", "tags": ["wind"], "weight": 0.22, "requires_any_tags": ["outdoor", "coastal", "rooftop"]},
+    {"id": "post_workout_flush", "layer": "surface_state", "value": "slight post-workout flush", "tags": ["flush"], "weight": 0.08, "requires_any_tags": ["sport", "gym", "tennis", "fitness"]},
+    {"id": "sand_on_legs", "layer": "surface_state", "value": "light sand dusting on the legs", "tags": ["sand"], "weight": 0.05, "requires_any_tags": ["beach", "dunes", "coastal"]}
+  ]
+}

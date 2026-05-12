@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "ethnicity_target_share": {
+    "white": 0.55,
+    "black": 0.2,
+    "latina": 0.1,
+    "asian": 0.15
+  },
+  "ethnicity_sequence": {
+    "max_same_group_in_a_row": 2,
+    "prefer_group_rotation": true
+  },
+  "vivid_colored_hair": {
+    "allowed_age_bands": ["young_18", "young_19", "young_20", "young_21", "young_22", "young_23"],
+    "target_share_per_batch": 0.1,
+    "max_same_in_a_row": 1
+  },
+  "age_rules": {
+    "gen_z_age_bands": ["young_18", "young_19", "young_20", "young_21", "young_22", "young_23"],
+    "big_breasts_age_bands": ["young_18", "young_19", "young_20", "young_21", "young_22", "young_23"],
+    "very_big_breasts_age_bands": ["young_18", "young_19", "young_20", "young_21", "young_22", "young_23"],
+    "deprioritize_30_plus": true
+  },
+  "body_group_target_share": {
+    "lean": 0.33,
+    "toned": 0.25,
+    "athletic": 0.2,
+    "curvy": 0.22
+  },
+  "body_sequence": {
+    "max_same_group_in_a_row": 1,
+    "prefer_rotation": true
+  },
+  "pose_group_target_share": {
+    "standing": 0.5,
+    "seated": 0.2,
+    "kneeling": 0.08,
+    "lying": 0.07,
+    "movement": 0.15
+  },
+  "pose_group_sequence": {
+    "max_same_group_in_a_row": 2,
+    "prefer_rotation": true
+  },
+  "framing_group_target_share": {
+    "portrait": 0.42,
+    "mid": 0.33,
+    "full": 0.25
+  },
+  "framing_group_sequence": {
+    "max_same_group_in_a_row": 2,
+    "prefer_rotation": true
+  },
+  "scene_family_rules": {
+    "target_share": {
+    "residential_luxury": 0.11,
+    "hospitality_suite": 0.04,
+    "grooming_bath": 0.04,
+    "culture_bookish": 0.07,
+    "creative_gallery": 0.06,
+    "garden_conservatory": 0.04,
+    "courtyard_garden": 0.08,
+    "urban_daylight": 0.14,
+    "coastal_pool": 0.14,
+    "coastal_boardwalk": 0.12,
+    "wellness_spa": 0.03,
+      "nightlife_bar": 0.06,
+      "nightlife_neon": 0.03,
+      "studio": 0.04
+    },
+    "recent_window": 3,
+    "avoid_recent_memory_count": 14,
+    "max_same_group_in_a_row": 1,
+    "cap_slack": 1
+  },
+  "setting_micro_rules": {
+    "max_same_per_batch": 2,
+    "avoid_recent_memory_count": 10,
+    "single_use_ids": [
+      "poolside_steps",
+      "boardwalk_beach_houses",
+      "powder_room_stone_vanity",
+      "hotel_sun_deck",
+      "private_karaoke_room",
+      "art_deco_disco_lobby",
+      "boutique_hotel_corridor",
+      "rooftop_lounge_night"
+    ]
+  },
+  "notes": [
+    "Do not stack six Black women in a row in a normal mixed batch.",
+    "Do not stack multiple vivid-color hair prompts together.",
+    "Do not stack milf-curvy outputs back to back when the batch is meant to feel varied.",
+    "Do not let hotel, spa, or pool scene families dominate the batch just because they are easy comfort settings."
+  ]
+}

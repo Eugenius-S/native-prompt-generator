@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "setting_macros": [
+    {"id": "luxury_interior", "layer": "setting_macro", "value": "luxury interior", "tags": ["interior", "luxury"], "weight": 0.95},
+    {"id": "beach_resort", "layer": "setting_macro", "value": "beach resort", "tags": ["outdoor", "coastal", "swim_friendly"], "weight": 0.7},
+    {"id": "city_lifestyle", "layer": "setting_macro", "value": "city lifestyle setting", "tags": ["urban", "outdoor_or_indoor"], "weight": 0.85},
+    {"id": "studio_clean", "layer": "setting_macro", "value": "clean studio setup", "tags": ["studio", "controlled"], "weight": 0.6},
+    {"id": "nightlife", "layer": "setting_macro", "value": "nightlife scene", "tags": ["night", "neon_possible"], "weight": 0.35},
+    {"id": "fantasy_location", "layer": "setting_macro", "value": "fantasy setting", "tags": ["fantasy"], "weight": 0.15}
+  ],
+  "setting_micros": [
+    {"id": "marble_primary_bathroom", "layer": "setting_micro", "value": "marble primary bathroom with a sculptural tub, deep veining, built-in bench, arched doorway and soft reflected daylight", "tags": ["interior", "luxury", "bathroom", "stone", "dry_or_wet_possible"], "weight": 0.24, "requires_any_tags": ["interior", "luxury"], "forbids_any_tags": ["sports_field", "industrial_garage"]},
+    {"id": "hotel_suite_sitting_area", "layer": "setting_micro", "value": "luxury hotel suite sitting area with a low boucle sofa, room service tray, tall drapes and a city view", "tags": ["interior", "luxury", "hotelized_living"], "weight": 0.22, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "walk_in_closet", "layer": "setting_micro", "value": "double-height walk-in closet with glass-front wardrobes, a central island and warm concealed lighting", "tags": ["interior", "luxury", "dressing_space"], "weight": 0.18, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "poolside_steps", "layer": "setting_micro", "value": "white poolside steps with pale stone and turquoise water nearby", "tags": ["outdoor", "pool", "coastal", "wet_friendly"], "weight": 0.14, "requires_any_tags": ["outdoor"]},
+    {"id": "boardwalk_beach_houses", "layer": "setting_micro", "value": "wooden boardwalk with pastel beach houses, white railings and pale dunes", "tags": ["outdoor", "coastal", "summer"], "weight": 0.14, "requires_any_tags": ["outdoor"]},
+    {"id": "bookstore_corner", "layer": "setting_micro", "value": "quiet bookstore corner with warm lamps, wooden shelves and a narrow aisle", "tags": ["interior", "bookish", "dry"], "weight": 0.08, "requires_any_tags": ["interior"]},
+    {"id": "neon_arcade", "layer": "setting_micro", "value": "neon arcade room with glossy floor and colorful machines blurred behind", "tags": ["interior", "nightlife", "neon"], "weight": 0.08, "requires_any_tags": ["night", "interior"]},
+    {"id": "cocktail_bar_booth", "layer": "setting_micro", "value": "dark cocktail bar booth with velvet seating, mirrored shelves and amber practical lights", "tags": ["interior", "nightlife", "bar"], "weight": 0.24, "requires_any_tags": ["night", "interior"]},
+    {"id": "private_karaoke_room", "layer": "setting_micro", "value": "private karaoke room with glossy lacquer walls, colored strip lights and a low corner sofa", "tags": ["interior", "nightlife", "neon"], "weight": 0.18, "requires_any_tags": ["night", "interior"]},
+    {"id": "rooftop_lounge_night", "layer": "setting_micro", "value": "night rooftop lounge with low seating, glass balustrade and a city glow beyond", "tags": ["nightlife", "night", "outdoor", "urban"], "weight": 0.2, "requires_any_tags": ["night"]},
+    {"id": "hotel_corridor_night", "layer": "setting_micro", "value": "moody hotel corridor with soft wall sconces, dark carpet and a long vanishing hallway", "tags": ["interior", "nightlife", "hotelized_living"], "weight": 0.16, "requires_any_tags": ["night", "interior"]},
+    {"id": "greenhouse_walkway", "layer": "setting_micro", "value": "tropical conservatory walkway with tall leaves, glass reflections and soft humidity", "tags": ["interior", "humid", "greenhouse"], "weight": 0.12, "requires_any_tags": ["interior"]},
+    {"id": "penthouse_breakfast_nook", "layer": "setting_micro", "value": "quiet penthouse breakfast nook with a rounded banquette, stone pedestal table, silver coffee service and early city light through tall glass", "tags": ["interior", "luxury", "hotelized_living", "sunny"], "weight": 0.18, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "penthouse_living_room", "layer": "setting_micro", "value": "sunlit penthouse living room with a curved cream sofa, bookmatched marble coffee table, floor to ceiling windows and skyline haze", "tags": ["interior", "luxury", "sunny"], "weight": 0.18, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "powder_room_stone_vanity", "layer": "setting_micro", "value": "elegant powder room with a dramatic stone vanity, oversized mirror, sculptural sconces and smoky walls", "tags": ["interior", "luxury", "bathroom"], "weight": 0.14, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "marble_shaker_kitchen", "layer": "setting_micro", "value": "marble topped shaker kitchen with warm wood cabinetry, unlacquered brass hardware, an oversized island and soft morning window light", "tags": ["interior", "luxury", "sunny"], "weight": 0.16, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "tailored_bedroom_suite", "layer": "setting_micro", "value": "tailored bedroom suite with an upholstered headboard wall, crisp hotel bedding, floating bedside lamps and muted city dawn", "tags": ["interior", "luxury", "bedroom"], "weight": 0.15, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "townhouse_salon", "layer": "setting_micro", "value": "understated townhouse salon with a fireplace mantel, collected art, deep sofa, stacked books and warm afternoon light", "tags": ["interior", "luxury", "bookish"], "weight": 0.14, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "art_filled_loft_lounge", "layer": "setting_micro", "value": "art filled loft lounge with tall industrial windows, a limestone fireplace, vintage chairs and large canvases", "tags": ["interior", "luxury"], "weight": 0.14, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "stair_hall_skylight", "layer": "setting_micro", "value": "sculptural stair hall with a curved railing, marble treads, a giant vase and skylight spill", "tags": ["interior", "luxury", "stairs"], "weight": 0.14, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "glam_vanity_corner", "layer": "setting_micro", "value": "glamorous vanity corner with a floating stone counter, triptych mirrors, a velvet stool and diffused side light", "tags": ["interior", "luxury", "dressing_space"], "weight": 0.16, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "boutique_hotel_corridor", "layer": "setting_micro", "value": "boutique hotel corridor with deep carpet, brass sconces, lacquered doors and a cinematic pool of light at each doorway", "tags": ["interior", "luxury", "hotelized_living"], "weight": 0.15, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "rooftop_hotel_conservatory", "layer": "setting_micro", "value": "rooftop hotel conservatory with indoor palms, wicker and brass seating, patterned stone floor and pale afternoon light", "tags": ["interior", "luxury", "sunny", "greenhouse"], "weight": 0.14, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "adults_only_spa_lounge", "layer": "setting_micro", "value": "adults only spa lounge with stone daybeds, rolled towels, a tea set, tall reeds and low restorative light", "tags": ["interior", "luxury", "spa"], "weight": 0.13, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "indoor_courtyard_breakfast_room", "layer": "setting_micro", "value": "indoor courtyard breakfast room with patterned stone flooring, tall doors, potted citrus and filtered light", "tags": ["interior", "luxury", "sunny"], "weight": 0.15, "requires_any_tags": ["interior", "luxury"]},
+    {"id": "sunlit_mediterranean_courtyard", "layer": "setting_micro", "value": "sunlit Mediterranean courtyard with pale stucco walls, terracotta pots, patterned stone and hard clean noon light", "tags": ["outdoor", "sunny", "summer"], "weight": 0.16, "requires_any_tags": ["outdoor"]},
+    {"id": "resort_palm_walkway", "layer": "setting_micro", "value": "sunny resort palm walkway with white stucco arches, patterned tile and bright reflected coastal light", "tags": ["outdoor", "coastal", "sunny"], "weight": 0.16, "requires_any_tags": ["outdoor"]},
+    {"id": "hotel_sun_deck", "layer": "setting_micro", "value": "bright hotel sun deck with pale loungers, white stone and open blue sky above", "tags": ["outdoor", "coastal", "pool", "sunny"], "weight": 0.14, "requires_any_tags": ["outdoor"]},
+    {"id": "city_rooftop_day", "layer": "setting_micro", "value": "sunlit city rooftop terrace with pale concrete, low seating and a wide skyline beyond", "tags": ["outdoor", "urban", "sunny"], "weight": 0.14, "requires_any_tags": ["outdoor"]}
+  ],
+  "prop_clusters": [
+    {"id": "room_service", "layer": "prop_cluster", "value": "room service tray, coffee set and folded newspaper", "tags": ["hotelized_living", "luxury"], "weight": 0.35},
+    {"id": "beauty_counter", "layer": "prop_cluster", "value": "perfume tray, makeup pouch and folded towel", "tags": ["grooming", "bathroom", "dressing_space"], "weight": 0.28},
+    {"id": "beach_accessories", "layer": "prop_cluster", "value": "sunglasses, sandals and a striped towel nearby", "tags": ["beach", "pool", "summer"], "weight": 0.25},
+    {"id": "books_glassware", "layer": "prop_cluster", "value": "stacked books, a crystal tumbler and a low reading lamp", "tags": ["bookish", "luxury", "dry"], "weight": 0.18},
+    {"id": "arcade_glow", "layer": "prop_cluster", "value": "glowing cabinets, stools and reflective flooring", "tags": ["arcade", "nightlife", "neon"], "weight": 0.08},
+    {"id": "bar_glassware", "layer": "prop_cluster", "value": "stemmed glasses, a low candle and polished bar hardware nearby", "tags": ["nightlife", "bar", "luxury"], "weight": 0.16},
+    {"id": "karaoke_props", "layer": "prop_cluster", "value": "a handheld mic, a low table and scattered cocktail napkins", "tags": ["nightlife", "neon"], "weight": 0.12}
+  ]
+}

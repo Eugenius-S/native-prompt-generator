@@ -1,0 +1,106 @@
+{
+  "framings": [
+    {
+      "id": "face_only",
+      "lead": "face close-up"
+    },
+    {
+      "id": "close_portrait",
+      "lead": "tight close-up"
+    },
+    {
+      "id": "head_and_shoulders",
+      "lead": "head-and-shoulders"
+    },
+    {
+      "id": "bust_up",
+      "lead": "bust-up"
+    },
+    {
+      "id": "below_chest_portrait",
+      "lead": "upper-body"
+    },
+    {
+      "id": "waist_up",
+      "lead": "waist-up"
+    },
+    {
+      "id": "knee_up",
+      "lead": "knee-up"
+    },
+    {
+      "id": "cowboy_shot",
+      "lead": "cowboy-shot"
+    },
+    {
+      "id": "full_body",
+      "lead": "full-body"
+    },
+    {
+      "id": "ankle_up",
+      "lead": "full-figure"
+    }
+  ],
+  "treatments": [
+    {
+      "id": "clean_commercial",
+      "noun": "fashion photo"
+    },
+    {
+      "id": "candid_phone_snapshot",
+      "noun": "candid phone photo"
+    },
+    {
+      "id": "analog_35mm",
+      "noun": "35mm photo"
+    },
+    {
+      "id": "low_key_dramatic",
+      "noun": "dramatic portrait"
+    },
+    {
+      "id": "direct_flash_night",
+      "noun": "direct-flash nightlife photo"
+    },
+    {
+      "id": "studio_seamless",
+      "noun": "studio photo"
+    },
+    {
+      "id": "cinematic_poster_realism",
+      "noun": "cinematic portrait"
+    },
+    {
+      "id": "concept_photo_editorial",
+      "noun": "editorial photo"
+    },
+    {
+      "id": "direct_light_editorial",
+      "noun": "fashion photo"
+    },
+    {
+      "id": "mirror_selfie",
+      "noun": "mirror selfie"
+    },
+    {
+      "id": "disposable_camera",
+      "noun": "disposable-camera photo"
+    },
+    {
+      "id": "documentary_still",
+      "noun": "documentary still"
+    },
+    {
+      "id": "casual_indoor_selfie",
+      "noun": "indoor selfie"
+    },
+    {
+      "id": "vintage_flash_photo",
+      "noun": "vintage-flash photo"
+    },
+    {
+      "id": "advertising_poster_realism",
+      "noun": "advertising photo"
+    }
+  ]
+}

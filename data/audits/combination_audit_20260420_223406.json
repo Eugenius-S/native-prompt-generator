@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-04-20T22:34:06",
+  "runs_per_case": 3,
+  "batch_size": 8,
+  "cases_total": 272,
+  "runs_total": 816,
+  "runs_successful": 816,
+  "runs_failed": 0,
+  "candidates_total": 8160,
+  "violations_total": 0,
+  "violations_per_100_candidates": 0.0,
+  "violation_counts": {},
+  "violation_counts_by_mode": {},
+  "violation_counts_by_scene": {},
+  "violation_counts_by_case": {},
+  "violation_counts_by_breast_control": {},
+  "violation_counts_by_validation_mode": {},
+  "failure_counts_by_case": {},
+  "failure_counts_by_mode": {},
+  "failure_counts_by_message": {},
+  "failure_counts_by_breast_control": {},
+  "failure_counts_by_validation_mode": {},
+  "runs_by_breast_control": {
+    "small_breasts": 438,
+    "random": 378
+  },
+  "runs_by_validation_mode": {
+    "normal": 408,
+    "strict": 408
+  },
+  "examples": {}
+}

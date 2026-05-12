@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "age_bands": [
+    {
+      "id": "young_18",
+      "layer": "age_band",
+      "value": "18 years old",
+      "tags": ["adult", "youthful", "default_sexualized"],
+      "weight": 0.2
+    },
+    {
+      "id": "young_19",
+      "layer": "age_band",
+      "value": "19 years old",
+      "tags": ["adult", "youthful"],
+      "weight": 0.16
+    },
+    {
+      "id": "young_20",
+      "layer": "age_band",
+      "value": "20 years old",
+      "tags": ["adult", "youthful"],
+      "weight": 0.14
+    },
+    {
+      "id": "young_21",
+      "layer": "age_band",
+      "value": "young 21 years old",
+      "tags": ["adult", "youthful", "default_sexualized"],
+      "weight": 0.14
+    },
+    {
+      "id": "young_22",
+      "layer": "age_band",
+      "value": "22 years old",
+      "tags": ["adult", "youthful"],
+      "weight": 0.12
+    },
+    {
+      "id": "young_23",
+      "layer": "age_band",
+      "value": "23 years old",
+      "tags": ["adult", "youthful"],
+      "weight": 0.08
+    },
+    {
+      "id": "mid_20s",
+      "layer": "age_band",
+      "value": "25 years old",
+      "tags": ["adult", "mid_20s"],
+      "weight": 0.1
+    },
+    {
+      "id": "early_30s",
+      "layer": "age_band",
+      "value": "32 years old",
+      "tags": ["adult", "early_30s"],
+      "weight": 0.05
+    },
+    {
+      "id": "late_30s",
+      "layer": "age_band",
+      "value": "38 years old",
+      "tags": ["adult", "late_30s"],
+      "weight": 0.01
+    }
+  ],
+  "ethnicities": [
+    {
+      "id": "white_american",
+      "layer": "ethnicity",
+      "value": "white American",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.035
+    },
+    {
+      "id": "white_russian",
+      "layer": "ethnicity",
+      "value": "Russian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.04
+    },
+    {
+      "id": "white_ukrainian",
+      "layer": "ethnicity",
+      "value": "Ukrainian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.04
+    },
+    {
+      "id": "white_polish",
+      "layer": "ethnicity",
+      "value": "Polish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.035
+    },
+    {
+      "id": "white_czech",
+      "layer": "ethnicity",
+      "value": "Czech",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.025
+    },
+    {
+      "id": "white_baltic",
+      "layer": "ethnicity",
+      "value": "Baltic",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.035
+    },
+    {
+      "id": "white_irish",
+      "layer": "ethnicity",
+      "value": "Irish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.03
+    },
+    {
+      "id": "white_scottish",
+      "layer": "ethnicity",
+      "value": "Scottish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.02
+    },
+    {
+      "id": "white_english",
+      "layer": "ethnicity",
+      "value": "English",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.035
+    },
+    {
+      "id": "white_french",
+      "layer": "ethnicity",
+      "value": "French",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.03
+    },
+    {
+      "id": "white_german",
+      "layer": "ethnicity",
+      "value": "German",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.03
+    },
+    {
+      "id": "white_dutch",
+      "layer": "ethnicity",
+      "value": "Dutch",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.02
+    },
+    {
+      "id": "white_belgian",
+      "layer": "ethnicity",
+      "value": "Belgian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.015
+    },
+    {
+      "id": "white_swiss",
+      "layer": "ethnicity",
+      "value": "Swiss",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.015
+    },
+    {
+      "id": "white_austrian",
+      "layer": "ethnicity",
+      "value": "Austrian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.015
+    },
+    {
+      "id": "white_italian",
+      "layer": "ethnicity",
+      "value": "Italian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.03
+    },
+    {
+      "id": "white_spanish",
+      "layer": "ethnicity",
+      "value": "Spanish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.03
+    },
+    {
+      "id": "white_portuguese",
+      "layer": "ethnicity",
+      "value": "Portuguese",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.02
+    },
+    {
+      "id": "white_greek",
+      "layer": "ethnicity",
+      "value": "Greek",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.02
+    },
+    {
+      "id": "white_swedish",
+      "layer": "ethnicity",
+      "value": "Swedish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.02
+    },
+    {
+      "id": "white_danish",
+      "layer": "ethnicity",
+      "value": "Danish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.015
+    },
+    {
+      "id": "white_norwegian",
+      "layer": "ethnicity",
+      "value": "Norwegian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.015
+    },
+    {
+      "id": "white_finnish",
+      "layer": "ethnicity",
+      "value": "Finnish",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.015
+    },
+    {
+      "id": "white_icelandic",
+      "layer": "ethnicity",
+      "value": "Icelandic",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.01
+    },
+    {
+      "id": "white_canadian",
+      "layer": "ethnicity",
+      "value": "white Canadian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.025
+    },
+    {
+      "id": "white_australian",
+      "layer": "ethnicity",
+      "value": "white Australian",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.02
+    },
+    {
+      "id": "white_new_zealander",
+      "layer": "ethnicity",
+      "value": "white New Zealander",
+      "tags": ["white"],
+      "group": "white",
+      "weight": 0.01
+    },
+    {
+      "id": "black_british",
+      "layer": "ethnicity",
+      "value": "Black British",
+      "tags": ["black"],
+      "group": "black",
+      "weight": 0.07
+    },
+    {
+      "id": "black_american",
+      "layer": "ethnicity",
+      "value": "Black American",
+      "tags": ["black"],
+      "group": "black",
+      "weight": 0.07
+    },
+    {
+      "id": "black_nigerian",
+      "layer": "ethnicity",
+      "value": "Black Nigerian",
+      "tags": ["black", "african"],
+      "group": "black",
+      "weight": 0.035
+    },
+    {
+      "id": "black_ethiopian",
+      "layer": "ethnicity",
+      "value": "Black Ethiopian",
+      "tags": ["black", "african"],
+      "group": "black",
+      "weight": 0.025
+    },
+    {
+      "id": "latina_mexican",
+      "layer": "ethnicity",
+      "value": "Mexican Latina",
+      "tags": ["latina"],
+      "group": "latina",
+      "weight": 0.03
+    },
+    {
+      "id": "latina_colombian",
+      "layer": "ethnicity",
+      "value": "Colombian Latina",
+      "tags": ["latina"],
+      "group": "latina",
+      "weight": 0.03
+    },
+    {
+      "id": "latina_brazilian",
+      "layer": "ethnicity",
+      "value": "Brazilian Latina",
+      "tags": ["latina"],
+      "group": "latina",
+      "weight": 0.02
+    },
+    {
+      "id": "latina_argentine",
+      "layer": "ethnicity",
+      "value": "Argentine Latina",
+      "tags": ["latina"],
+      "group": "latina",
+      "weight": 0.02
+    },
+    {
+      "id": "east_asian_chinese",
+      "layer": "ethnicity",
+      "value": "Chinese",
+      "tags": ["asian", "east_asian"],
+      "group": "asian",
+      "weight": 0.02
+    },
+    {
+      "id": "east_asian_japanese",
+      "layer": "ethnicity",
+      "value": "Japanese",
+      "tags": ["asian", "east_asian"],
+      "group": "asian",
+      "weight": 0.016
+    },
+    {
+      "id": "southeast_asian_thai",
+      "layer": "ethnicity",
+      "value": "Thai",
+      "tags": ["asian", "southeast_asian"],
+      "group": "asian",
+      "weight": 0.0125
+    },
+    {
+      "id": "southeast_asian_vietnamese",
+      "layer": "ethnicity",
+      "value": "Vietnamese",
+      "tags": ["asian", "southeast_asian"],
+      "group": "asian",
+      "weight": 0.01
+    },
+    {
+      "id": "southeast_asian_filipina",
+      "layer": "ethnicity",
+      "value": "Filipina",
+      "tags": ["asian", "southeast_asian"],
+      "group": "asian",
+      "weight": 0.0075
+    },
+    {
+      "id": "middle_eastern",
+      "layer": "ethnicity",
+      "value": "Arab",
+      "tags": ["middle_eastern", "arab", "excluded_default"],
+      "group": "middle_eastern",
+      "weight": 0.02
+    },
+    {
+      "id": "south_asian",
+      "layer": "ethnicity",
+      "value": "Indian",
+      "tags": ["south_asian", "indian", "excluded_default"],
+      "group": "south_asian",
+      "weight": 0.02
+    }
+  ],
+  "body_types": [
+    {
+      "id": "slim",
+      "layer": "body_type",
+      "value": "slim body",
+      "tags": ["slim"],
+      "group": "lean",
+      "weight": 0.27
+    },
+    {
+      "id": "slim_toned",
+      "layer": "body_type",
+      "value": "slim toned body",
+      "tags": ["slim", "toned"],
+      "group": "toned",
+      "weight": 0.24
+    },
+    {
+      "id": "athletic",
+      "layer": "body_type",
+      "value": "athletic toned body",
+      "tags": ["athletic", "toned"],
+      "group": "athletic",
+      "weight": 0.2
+    },
+    {
+      "id": "soft_curvy",
+      "layer": "body_type",
+      "value": "soft curvy body",
+      "tags": ["curvy"],
+      "group": "curvy",
+      "weight": 0.15
+    },
+    {
+      "id": "lush_curvy",
+      "layer": "body_type",
+      "value": "lush curvy body",
+      "tags": ["curvy", "bombshell"],
+      "group": "curvy",
+      "weight": 0.08
+    },
+    {
+      "id": "long_legged",
+      "layer": "body_type",
+      "value": "long legged body",
+      "tags": ["tall", "legs_emphasis"],
+      "group": "lean",
+      "weight": 0.06
+    }
+  ],
+  "beauty_levels": [
+    {
+      "id": "beautified_soft",
+      "layer": "beauty_level",
+      "value": "beautified and flattering",
+      "tags": ["beautified", "soft"],
+      "weight": 1.0
+    },
+    {
+      "id": "beautified_glam",
+      "layer": "beauty_level",
+      "value": "beautified with polished glam appeal",
+      "tags": ["beautified", "glam"],
+      "weight": 0.75
+    }
+  ],
+  "breast_sizes": [
+    {
+      "id": "small_breasts",
+      "layer": "breast_size",
+      "value": "small breasts",
+      "tags": ["small_breasts"],
+      "weight": 0.25
+    },
+    {
+      "id": "medium_breasts",
+      "layer": "breast_size",
+      "value": "medium breasts",
+      "tags": ["medium_breasts"],
+      "weight": 0.4
+    },
+    {
+      "id": "big_breasts",
+      "layer": "breast_size",
+      "value": "big breasts",
+      "tags": ["big_breasts"],
+      "weight": 0.22
+    },
+    {
+      "id": "very_big_breasts",
+      "layer": "breast_size",
+      "value": "very big breasts",
+      "tags": ["very_big_breasts"],
+      "weight": 0.13
+    },
+    {
+      "id": "extra_large_breasts",
+      "layer": "breast_size",
+      "value": "huge natural massive XXXL breasts",
+      "tags": ["extra_large_breasts", "very_big_breasts"],
+      "weight": 0.06
+    }
+  ],
+  "eye_colors": [
+    {
+      "id": "brown_eyes",
+      "layer": "eye_color",
+      "value": "brown eyes",
+      "tags": ["dark_eyes", "natural_eyes"],
+      "weight": 0.42
+    },
+    {
+      "id": "hazel_eyes",
+      "layer": "eye_color",
+      "value": "hazel eyes",
+      "tags": ["natural_eyes"],
+      "weight": 0.2
+    },
+    {
+      "id": "green_eyes",
+      "layer": "eye_color",
+      "value": "green eyes",
+      "tags": ["light_eyes", "natural_eyes"],
+      "weight": 0.13
+    },
+    {
+      "id": "blue_eyes",
+      "layer": "eye_color",
+      "value": "blue eyes",
+      "tags": ["light_eyes", "natural_eyes"],
+      "weight": 0.17
+    },
+    {
+      "id": "gray_eyes",
+      "layer": "eye_color",
+      "value": "gray eyes",
+      "tags": ["light_eyes", "natural_eyes"],
+      "weight": 0.08
+    }
+  ]
+}

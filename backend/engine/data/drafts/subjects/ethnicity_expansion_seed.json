@@ -1,0 +1,114 @@
+{
+  "ethnicities": [
+    {
+      "id": "white_romanian",
+      "layer": "ethnicity",
+      "value": "white Romanian",
+      "tags": ["white", "balkan"],
+      "group": "white",
+      "weight": 0.02,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "white_hungarian",
+      "layer": "ethnicity",
+      "value": "white Hungarian",
+      "tags": ["white", "central_european"],
+      "group": "white",
+      "weight": 0.018,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "white_serbian",
+      "layer": "ethnicity",
+      "value": "white Serbian",
+      "tags": ["white", "balkan"],
+      "group": "white",
+      "weight": 0.016,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "white_croatian",
+      "layer": "ethnicity",
+      "value": "white Croatian",
+      "tags": ["white", "balkan"],
+      "group": "white",
+      "weight": 0.016,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "white_bulgarian",
+      "layer": "ethnicity",
+      "value": "white Bulgarian",
+      "tags": ["white", "balkan"],
+      "group": "white",
+      "weight": 0.016,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "black_french",
+      "layer": "ethnicity",
+      "value": "Black French",
+      "tags": ["black"],
+      "group": "black",
+      "weight": 0.028,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "black_south_african",
+      "layer": "ethnicity",
+      "value": "Black South African",
+      "tags": ["black", "african"],
+      "group": "black",
+      "weight": 0.02,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "latina_chilean",
+      "layer": "ethnicity",
+      "value": "Chilean Latina",
+      "tags": ["latina"],
+      "group": "latina",
+      "weight": 0.018,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "latina_peruvian",
+      "layer": "ethnicity",
+      "value": "Peruvian Latina",
+      "tags": ["latina"],
+      "group": "latina",
+      "weight": 0.016,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "east_asian_japanese",
+      "layer": "ethnicity",
+      "value": "Japanese",
+      "tags": ["asian", "east_asian"],
+      "group": "asian",
+      "weight": 0.016,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    },
+    {
+      "id": "east_asian_korean",
+      "layer": "ethnicity",
+      "value": "Korean",
+      "tags": ["asian", "east_asian"],
+      "group": "asian",
+      "weight": 0.016,
+      "status": "draft",
+      "source": "ethnicity_expansion_2026_04_17"
+    }
+  ]
+}

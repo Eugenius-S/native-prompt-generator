@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "repair_priority": [
+    "remove_small_conflicting_detail",
+    "swap_surface_state",
+    "swap_setting_micro",
+    "swap_outfit_detail",
+    "swap_pose_family",
+    "regenerate_macro_block"
+  ],
+  "fix_map": {
+    "wet_skin_in_dry_bookish_space": ["remove_small_conflicting_detail", "swap_surface_state"],
+    "swimwear_in_office_like_setting": ["swap_outfit_detail"],
+    "sand_without_beach_context": ["remove_small_conflicting_detail"],
+    "wet_hair_requires_context": ["remove_small_conflicting_detail"],
+    "post_workout_requires_context": ["remove_small_conflicting_detail"]
+  },
+  "action_defaults": {
+    "remove_small_conflicting_detail": "Drop the smallest incompatible descriptor first.",
+    "swap_surface_state": "Replace the current surface state with dry_clean.",
+    "swap_setting_micro": "Swap the micro-setting within the same macro family if possible.",
+    "swap_outfit_detail": "Move from the current outfit family to the nearest compatible family.",
+    "swap_pose_family": "Pick a pose from a different family to reduce repeated shape.",
+    "regenerate_macro_block": "Regenerate setting macro, outfit family, and pose family together."
+  }
+}

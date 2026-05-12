@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "pose_families": [
+    {"id": "standing_three_quarter", "layer": "pose_family", "value": "standing in a relaxed three quarter angle with one hip popped", "tags": ["standing", "default_flattering"], "weight": 1.0},
+    {"id": "wall_lean", "layer": "pose_family", "value": "leaning lightly against a wall or railing with one shoulder forward", "tags": ["standing", "casual", "flirty"], "weight": 0.65},
+    {"id": "slow_walk", "layer": "pose_family", "value": "walking slowly mid step with her torso turned slightly toward camera", "tags": ["movement", "lifestyle"], "weight": 0.45},
+    {"id": "seated_sideways", "layer": "pose_family", "value": "seated sideways with both legs angled to one side", "tags": ["seated"], "weight": 0.35},
+    {"id": "cowboy_shot_stance", "layer": "pose_family", "value": "standing in a simple cowboy-shot stance with her body turned slightly", "tags": ["standing", "editorial"], "weight": 0.18}
+  ],
+  "hand_actions": [
+    {"id": "hand_at_waist", "layer": "hand_action", "value": "one hand at her waist", "tags": ["clean", "default"], "weight": 0.8},
+    {"id": "hand_on_thigh", "layer": "hand_action", "value": "one hand resting low along her thigh", "tags": ["slutty", "flattering"], "weight": 0.75},
+    {"id": "touching_strap", "layer": "hand_action", "value": "one hand lightly touching the strap near her collarbone", "tags": ["pretty", "detail"], "weight": 0.45},
+    {"id": "hooked_waistband", "layer": "hand_action", "value": "one hand hooked lightly at the waistband", "tags": ["gen_z", "casual"], "weight": 0.55},
+    {"id": "braced_behind", "layer": "hand_action", "value": "one hand braced behind her for support", "tags": ["seated", "casual"], "weight": 0.2}
+  ],
+  "camera_framings": [
+    {"id": "waist_up", "layer": "camera_framing", "group": "portrait", "value": "waist-up framing", "tags": ["portrait"], "weight": 0.22},
+    {"id": "bust_up", "layer": "camera_framing", "group": "portrait", "value": "bust-up framing", "tags": ["beauty", "portrait"], "weight": 0.24},
+    {"id": "knee_up", "layer": "camera_framing", "group": "mid", "value": "knee-up framing", "tags": ["fashion"], "weight": 0.28},
+    {"id": "cowboy_shot", "layer": "camera_framing", "group": "mid", "value": "cowboy shot framing", "tags": ["fashion", "editorial"], "weight": 0.24},
+    {"id": "close_portrait", "layer": "camera_framing", "group": "portrait", "value": "close portrait framing", "tags": ["beauty"], "weight": 0.26},
+    {"id": "head_and_shoulders", "layer": "camera_framing", "group": "portrait", "value": "head and shoulders portrait framing", "tags": ["beauty", "portrait"], "weight": 0.26},
+    {"id": "face_only", "layer": "camera_framing", "group": "portrait", "value": "face-only portrait framing", "tags": ["beauty", "portrait"], "weight": 0.0},
+    {"id": "below_chest_portrait", "layer": "camera_framing", "group": "portrait", "value": "head to below-chest portrait framing", "tags": ["beauty", "portrait"], "weight": 0.28},
+    {"id": "full_body", "layer": "camera_framing", "group": "full", "value": "full body framing", "tags": ["fashion", "full_body"], "weight": 0.28},
+    {"id": "ankle_up", "layer": "camera_framing", "group": "full", "value": "ankle-up full figure framing", "tags": ["fashion", "full_body"], "weight": 0.28}
+  ],
+  "camera_angles": [
+    {"id": "eye_level", "layer": "camera_angle", "value": "eye level angle", "tags": ["safe", "default"], "weight": 1.0},
+    {"id": "slight_three_quarter", "layer": "camera_angle", "value": "slight three quarter view", "tags": ["flattering"], "weight": 0.8},
+    {"id": "slight_low_angle", "layer": "camera_angle", "value": "slight low angle", "tags": ["power"], "weight": 0.22}
+  ],
+  "lighting_families": [
+    {"id": "clean_daylight", "layer": "lighting_family", "value": "clean natural daylight", "tags": ["daylight", "clean"], "weight": 1.0},
+    {"id": "soft_overcast", "layer": "lighting_family", "value": "soft overcast daylight", "tags": ["daylight", "soft"], "weight": 0.45},
+    {"id": "hard_direct_light", "layer": "lighting_family", "value": "hard direct light with crisp shadow edges", "tags": ["daylight", "hard_light", "direct_light"], "weight": 0.22},
+    {"id": "warm_interior", "layer": "lighting_family", "value": "warm interior lamp light", "tags": ["interior", "warm"], "weight": 0.45},
+    {"id": "studio_rim", "layer": "lighting_family", "value": "smooth studio portrait lighting with a gentle rim light", "tags": ["studio"], "weight": 0.35},
+    {"id": "single_source_contrast", "layer": "lighting_family", "value": "single-source contrast light with carved facial shadows", "tags": ["studio", "contrast", "hard_light"], "weight": 0.18},
+    {"id": "direct_flash_clean", "layer": "lighting_family", "value": "clean direct flash with crisp foreground falloff", "tags": ["night", "flash", "hard_light"], "weight": 0.14},
+    {"id": "neon_night", "layer": "lighting_family", "value": "clean neon ambience without colored spots on skin", "tags": ["night", "neon"], "weight": 0.15},
+    {"id": "practical_lamp", "layer": "lighting_family", "value": "warm practical lamp light with visible room glow", "tags": ["interior", "practical", "warm"], "weight": 0.24},
+    {"id": "colored_ambient", "layer": "lighting_family", "value": "colored ambient light with soft color spill", "tags": ["night", "ambient", "colored"], "weight": 0.16},
+    {"id": "moody_darkness", "layer": "lighting_family", "value": "moody darkness with lifted shadows", "tags": ["night", "moody", "dark"], "weight": 0.14},
+    {"id": "tight_spotlight", "layer": "lighting_family", "value": "tight spotlight with focused falloff", "tags": ["studio", "spotlight", "contrast"], "weight": 0.18},
+    {"id": "silhouette_edge", "layer": "lighting_family", "value": "edge-lit silhouette light with a soft background glow", "tags": ["night", "silhouette", "backlight"], "weight": 0.12}
+  ],
+  "time_of_day": [
+    {"id": "morning", "layer": "time_of_day", "value": "morning", "tags": ["day"], "weight": 0.3},
+    {"id": "afternoon", "layer": "time_of_day", "value": "bright afternoon", "tags": ["day"], "weight": 0.6},
+    {"id": "golden_hour", "layer": "time_of_day", "value": "golden hour", "tags": ["sunset"], "weight": 0.22},
+    {"id": "night", "layer": "time_of_day", "value": "night", "tags": ["night"], "weight": 0.15}
+  ],
+  "mood_energy": [
+    {"id": "soft_flirty", "layer": "mood_energy", "value": "soft flirty energy", "tags": ["flirty"], "weight": 0.9},
+    {"id": "bratty", "layer": "mood_energy", "value": "bratty playful energy", "tags": ["gen_z", "playful"], "weight": 0.58},
+    {"id": "slow_seductive", "layer": "mood_energy", "value": "slow seductive energy", "tags": ["slutty", "controlled"], "weight": 0.72},
+    {"id": "calm_confident", "layer": "mood_energy", "value": "calm confident energy", "tags": ["controlled"], "weight": 0.18}
+  ],
+  "capture_styles": [
+    {"id": "fashion_photo", "layer": "capture_style", "value": "fashion photo", "tags": ["photo"], "weight": 1.0},
+    {"id": "editorial_photo", "layer": "capture_style", "value": "editorial photo", "tags": ["photo", "editorial"], "weight": 0.55},
+    {"id": "lifestyle_photo", "layer": "capture_style", "value": "lifestyle photo", "tags": ["photo", "casual"], "weight": 0.45},
+    {"id": "smartphone_photo", "layer": "capture_style", "value": "smartphone photo", "tags": ["phone", "amateur"], "weight": 0.18}
+  ],
+  "lens_looks": [
+    {"id": "50mm", "layer": "lens_look", "value": "50mm lens look", "tags": ["standard"], "weight": 1.0},
+    {"id": "85mm", "layer": "lens_look", "value": "85mm lens look", "tags": ["portrait"], "weight": 0.8},
+    {"id": "35mm", "layer": "lens_look", "value": "35mm lens look", "tags": ["lifestyle"], "weight": 0.35}
+  ]
+}

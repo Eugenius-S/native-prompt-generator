@@ -1,0 +1,113 @@
+{
+  "outfit_families": [
+    {
+      "id": "male_crisp_evening_shirt_trousers",
+      "short_name": "Male crisp evening shirt",
+      "layer": "outfit_family",
+      "value": "crisp fitted button-down worn slightly open at the collar with dark tailored trousers",
+      "tags": ["male", "nightlife", "luxury", "romantic", "smart", "trousers"],
+      "weight": 0.12,
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Normalized from Couple-Dating_3.png, Travel_00003_.png, and Romantic_00128_.png metadata for a sharper couple-evening lane than the current generic open-collar record."
+    },
+    {
+      "id": "male_oversized_tailored_suit",
+      "short_name": "Male oversized tailored suit",
+      "layer": "outfit_family",
+      "value": "oversized tailored suit with relaxed drape and an open evening stance",
+      "tags": ["male", "nightlife", "luxury", "studio", "smart", "tailored", "trousers"],
+      "weight": 0.1,
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Derived from Fashion_00035_.png metadata.",
+      "safety_note": "Useful mainly when the woman-side outfit is already polished or glossy; otherwise it can overpower the frame."
+    },
+    {
+      "id": "male_fitted_training_set",
+      "short_name": "Male fitted training set",
+      "layer": "outfit_family",
+      "value": "fitted performance tee with clean joggers and a gym-ready athletic silhouette",
+      "tags": ["male", "fitness", "sporty", "casual", "athletic"],
+      "weight": 0.1,
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Derived from ComfyUI-Fit_00047_.png metadata.",
+      "safety_note": "Keep it fitted but not bodybuilder-costume tight; this is a clean training lane, not fetish gymwear."
+    },
+    {
+      "id": "male_clean_swim_shorts",
+      "short_name": "Male clean swim shorts",
+      "layer": "outfit_family",
+      "value": "clean tailored swim shorts with a minimal resort-ready finish",
+      "tags": ["male", "coastal", "vacation", "swimwear", "clean"],
+      "weight": 0.09,
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Merged from Vacation-New_00072_.png and Vacation-New_00095_.png metadata.",
+      "safety_note": "Meant only for pool/cabana/coastal routing and should not leak into hotel-bar or urban-night contexts."
+    }
+  ],
+  "coordination_pairs": [
+    {
+      "id": "city_window_sequin_pair",
+      "female_outfit_id": "sequin_evening_sheath_dress",
+      "male_outfit_id": "male_crisp_evening_shirt_trousers",
+      "style_modes": ["luxury", "romantic"],
+      "allowed_scene_families": ["residential_luxury", "hospitality_suite"],
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Power-couple city-window pairing normalized from Couple-Dating_3.png."
+    },
+    {
+      "id": "studio_gloss_suit_pair",
+      "female_outfit_id": "lined_satin_mini_dress",
+      "male_outfit_id": "male_oversized_tailored_suit",
+      "style_modes": ["studio", "nightlife", "luxury"],
+      "allowed_scene_families": ["studio", "residential_luxury", "nightlife_bar"],
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Glossy studio or hotel pair normalized from Fashion_00035_.png."
+    },
+    {
+      "id": "table_press_structured_pair",
+      "female_outfit_id": "lined_sculptural_mini_dress",
+      "male_outfit_id": "male_crisp_evening_shirt_trousers",
+      "style_modes": ["luxury", "nightlife", "studio"],
+      "allowed_scene_families": ["residential_luxury", "hospitality_suite", "studio"],
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Structured table-lean couple pairing normalized from Fashion_00017_.png."
+    },
+    {
+      "id": "city_trench_pair",
+      "female_outfit_id": "open_trench_mini_dress",
+      "male_outfit_id": "male_crisp_evening_shirt_trousers",
+      "style_modes": ["romantic", "luxury", "urban_day"],
+      "allowed_scene_families": ["urban_daylight", "residential_luxury", "courtyard_garden"],
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Paris-viewpoint couple styling normalized from Travel_00003_.png / Travel_00008_.png / Travel_00011_.png."
+    },
+    {
+      "id": "training_lap_pair",
+      "female_outfit_id": "zip_front_training_set",
+      "male_outfit_id": "male_fitted_training_set",
+      "style_modes": ["fitness", "lifestyle"],
+      "allowed_scene_families": ["urban_daylight", "wellness_spa", "studio"],
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Gym-editorial pair normalized from ComfyUI-Fit_00047_.png."
+    },
+    {
+      "id": "coastal_swim_pair",
+      "female_outfit_id": "bikini_set",
+      "male_outfit_id": "male_clean_swim_shorts",
+      "style_modes": ["coastal", "vacation"],
+      "allowed_scene_families": ["coastal_pool", "coastal_boardwalk"],
+      "status": "draft",
+      "source": "local_refs/2026-04-21/poses_and_outfits",
+      "notes": "Coastal couple pairing normalized from Vacation-New_00072_.png and Vacation-New_00095_.png using the existing female bikini lane plus a new male swim-short draft."
+    }
+  ]
+}
