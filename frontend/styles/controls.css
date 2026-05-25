@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  min-height: 52px;
-  padding: 12px 14px;
-  border-radius: 16px;
+  min-height: 48px;
+  padding: 10px 12px;
+  border-radius: 10px;
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, #ffffff, var(--surface-tint));
+  background: var(--surface-strong);
   color: var(--ink);
 }
 
@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .segmented-control.is-disabled {
@@ -26,13 +26,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 48px;
-  padding: 0 14px 2px;
-  border-radius: 16px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 10px;
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, #ffffff, var(--surface-tint));
+  background: var(--surface-strong);
   color: var(--muted);
-  font-weight: 600;
+  font-weight: 500;
   transition: 160ms ease;
 }
 
@@ -44,11 +44,10 @@
 }
 
 .segmented-option.active {
-  color: var(--ink);
-  border-color: rgba(217, 99, 46, 0.56);
-  box-shadow:
-    0 0 0 3px rgba(234, 123, 69, 0.12),
-    0 8px 20px rgba(234, 123, 69, 0.1);
+  color: #ffffff;
+  border-color: var(--color-deep-black);
+  background: var(--color-deep-black);
+  box-shadow: none;
 }
 
 .segmented-option.is-disabled {
@@ -59,7 +58,7 @@
   width: 18px;
   height: 18px;
   margin: 0;
-  accent-color: var(--accent);
+  accent-color: var(--color-deep-black);
 }
 
 .toggle-row span {
@@ -102,7 +101,7 @@
 .warning-box,
 .empty,
 .status-line {
-  border-radius: 16px;
+  border-radius: 10px;
   border: 1px solid var(--line);
   background: var(--surface-strong);
 }
@@ -112,10 +111,10 @@
 .textarea,
 .select-trigger {
   width: 100%;
-  padding: 12px 14px;
+  padding: 10px 12px;
   outline: none;
   color: var(--ink);
-  background: linear-gradient(180deg, #ffffff, var(--surface-tint));
+  background: var(--surface-strong);
   transition: border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
 }
 
@@ -123,11 +122,11 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  border-radius: 16px;
+  border-radius: 10px;
   padding-right: 44px;
   overflow: hidden;
   background-image:
-    linear-gradient(180deg, #ffffff, var(--surface-tint)),
+    linear-gradient(180deg, #ffffff, #ffffff),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9' fill='none'%3E%3Cpath d='M1.5 1.5L7 7L12.5 1.5' stroke='%23667085' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat, no-repeat;
   background-position: 0 0, right 16px center;
@@ -138,8 +137,8 @@
 .select:focus,
 .textarea:focus,
 .select-trigger:focus-visible {
-  border-color: rgba(234, 123, 69, 0.42);
-  box-shadow: 0 0 0 4px rgba(234, 123, 69, 0.12);
+  border-color: var(--color-deep-black);
+  box-shadow: var(--focus-ring);
 }
 
 .input:disabled,
@@ -163,10 +162,10 @@ input[type="range"]:disabled {
   align-items: center;
   justify-content: space-between;
   min-height: 50px;
-  border-radius: 16px;
+  border-radius: 10px;
   border: 1px solid var(--line);
   text-align: left;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset;
+  box-shadow: none;
 }
 
 .select-chevron {
@@ -180,8 +179,8 @@ input[type="range"]:disabled {
 }
 
 .custom-select.is-open .select-trigger {
-  border-color: rgba(234, 123, 69, 0.42);
-  box-shadow: 0 0 0 4px rgba(234, 123, 69, 0.12);
+  border-color: var(--color-deep-black);
+  box-shadow: var(--focus-ring);
 }
 
 .custom-select.is-open .select-chevron {
@@ -196,11 +195,10 @@ input[type="range"]:disabled {
   z-index: 30;
   display: none;
   padding: 8px;
-  border-radius: 18px;
+  border-radius: 14px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 18px 44px rgba(34, 50, 84, 0.14);
-  backdrop-filter: blur(14px);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow-strong);
 }
 
 .custom-select.is-open .select-menu {
@@ -213,28 +211,28 @@ input[type="range"]:disabled {
   min-height: 42px;
   padding: 0 12px 2px;
   border: 1px solid transparent;
-  border-radius: 14px;
-  background: rgba(255, 255, 255, 0.92);
+  border-radius: 10px;
+  background: var(--surface-strong);
   color: var(--ink);
   text-align: left;
   transition: 140ms ease;
 }
 
 .select-option:hover {
-  border-color: rgba(117, 132, 163, 0.22);
-  background: rgba(247, 249, 253, 0.96);
+  border-color: var(--line);
+  background: var(--color-ghost-gray);
 }
 
 .select-option:focus-visible {
   outline: none;
-  border-color: rgba(234, 123, 69, 0.42);
-  box-shadow: 0 0 0 4px rgba(234, 123, 69, 0.12);
+  border-color: var(--color-deep-black);
+  box-shadow: var(--focus-ring);
 }
 
 .select-option.is-selected {
-  border-color: rgba(217, 99, 46, 0.4);
-  background: rgba(234, 123, 69, 0.1);
-  color: var(--accent-strong);
+  border-color: var(--color-deep-black);
+  background: var(--color-deep-black);
+  color: #ffffff;
 }
 
 .custom-select.is-disabled {
@@ -242,8 +240,8 @@ input[type="range"]:disabled {
 }
 
 .slider-wrap {
-  padding: 12px 14px;
-  background: linear-gradient(180deg, #ffffff, var(--surface-tint));
+  padding: 12px;
+  background: var(--surface-strong);
 }
 
 .slider-head {
@@ -272,7 +270,7 @@ input[type="range"] {
   padding: 8px 0;
   appearance: none;
   background: transparent;
-  accent-color: var(--accent);
+  accent-color: var(--color-deep-black);
   cursor: grab;
   touch-action: pan-x;
 }
@@ -282,9 +280,9 @@ input[type="range"]:active {
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-  height: 10px;
+  height: 8px;
   border-radius: 999px;
-  background: linear-gradient(90deg, rgba(234, 123, 69, 0.22), rgba(217, 99, 46, 0.42));
+  background: var(--color-subtle-ash);
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -293,25 +291,25 @@ input[type="range"]::-webkit-slider-thumb {
   height: 24px;
   margin-top: -7px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.95);
-  background: linear-gradient(180deg, var(--accent), var(--accent-strong));
-  box-shadow: 0 8px 18px rgba(234, 123, 69, 0.28);
+  border: 2px solid #ffffff;
+  background: var(--color-deep-black);
+  box-shadow: 0 0 0 1px var(--color-subtle-ash);
 }
 
 input[type="range"]::-moz-range-track {
-  height: 10px;
+  height: 8px;
   border: 0;
   border-radius: 999px;
-  background: linear-gradient(90deg, rgba(234, 123, 69, 0.22), rgba(217, 99, 46, 0.42));
+  background: var(--color-subtle-ash);
 }
 
 input[type="range"]::-moz-range-thumb {
   width: 24px;
   height: 24px;
-  border: 2px solid rgba(255, 255, 255, 0.95);
+  border: 2px solid #ffffff;
   border-radius: 50%;
-  background: linear-gradient(180deg, var(--accent), var(--accent-strong));
-  box-shadow: 0 8px 18px rgba(234, 123, 69, 0.28);
+  background: var(--color-deep-black);
+  box-shadow: 0 0 0 1px var(--color-subtle-ash);
 }
 
 .mode-button,
@@ -321,24 +319,24 @@ input[type="range"]::-moz-range-thumb {
   min-height: 42px;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--surface-strong);
   color: var(--ink);
-  padding: 0 16px 2px;
+  padding: 0 16px;
   transition: 160ms ease;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset;
+  box-shadow: none;
 }
 
 .mode-button {
-  min-width: 92px;
-  min-height: 92px;
+  min-width: 86px;
+  min-height: 86px;
   padding: 10px;
   line-height: 1;
   background: rgba(255, 255, 255, 0.92);
 }
 
 .mode-icon {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
 }
 
 .mode-button:hover,
@@ -350,10 +348,10 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .primary-button {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 242, 236, 0.98));
-  color: var(--accent-strong);
-  border-color: rgba(217, 99, 46, 0.42);
-  box-shadow: 0 12px 26px rgba(234, 123, 69, 0.12);
+  background: var(--color-deep-black);
+  color: #ffffff;
+  border-color: var(--color-deep-black);
+  box-shadow: none;
 }
 
 .ghost-button,
@@ -410,13 +408,10 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .mode-button.active {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.92)),
-    linear-gradient(180deg, var(--accent), var(--accent-strong));
-  border-color: rgba(217, 99, 46, 0.78);
-  box-shadow:
-    0 0 0 3px rgba(234, 123, 69, 0.14),
-    0 10px 22px rgba(234, 123, 69, 0.14);
+  background: var(--color-deep-black);
+  color: #ffffff;
+  border-color: var(--color-deep-black);
+  box-shadow: none;
 }
 
 .mode-button:disabled,

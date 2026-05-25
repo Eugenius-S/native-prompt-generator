@@ -1,29 +1,31 @@
 .shell {
-  max-width: 1600px;
+  max-width: 1480px;
   margin: 0 auto;
-  padding: 28px 24px 180px;
+  padding: 24px 24px 168px;
 }
 
 .topbar {
   display: block;
-  padding-bottom: 18px;
+  padding-bottom: 16px;
 }
 
 .title-wrap h1 {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 5vw, 3.6rem);
-  font-weight: 700;
-  line-height: 0.94;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  line-height: 1;
   letter-spacing: -0.05em;
+  color: var(--color-deep-black);
 }
 
 .title-wrap p {
-  margin: 10px 0 0;
+  margin: 8px 0 0;
   max-width: 720px;
   color: var(--muted);
   font-size: 1rem;
-  line-height: 1.45;
+  line-height: 1.33;
+  letter-spacing: -0.025em;
 }
 
 .top-meta,
@@ -36,7 +38,7 @@
 }
 
 .mode-switch {
-  margin-bottom: 48px;
+  margin-bottom: 32px;
 }
 
 .top-meta {
@@ -46,18 +48,18 @@
 .pill {
   display: inline-flex;
   align-items: center;
-  padding: 8px 12px 10px;
-  border-radius: 999px;
+  padding: 4px 10px;
+  border-radius: 26px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.76);
-  font-size: 0.83rem;
+  background: var(--color-ghost-gray);
+  font-size: 0.78rem;
   color: var(--muted);
 }
 
 .workspace {
   display: grid;
   grid-template-columns: minmax(360px, 520px) minmax(420px, 1fr);
-  gap: 20px;
+  gap: 16px;
 }
 
 .panel {
@@ -65,11 +67,10 @@
   background: var(--surface);
   box-shadow: var(--shadow);
   border-radius: var(--radius);
-  backdrop-filter: blur(12px);
 }
 
 .controls {
-  padding: 18px;
+  padding: 16px;
 }
 
 .controls-inner,
@@ -83,7 +84,7 @@
 }
 
 .controls-inner {
-  gap: 20px;
+  gap: 16px;
 }
 
 .sticky-output {
@@ -93,10 +94,10 @@
 }
 
 .section {
-  padding: 16px 16px 20px;
-  border-radius: calc(var(--radius) - 6px);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.72), rgba(247, 249, 253, 0.9));
-  border: 1px solid rgba(117, 132, 163, 0.14);
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
 }
 
 .collapsible-section {
@@ -128,6 +129,7 @@
 .section-summary-title {
   font-size: 1rem;
   font-weight: 600;
+  letter-spacing: -0.025em;
 }
 
 .section-summary-side {
@@ -151,9 +153,9 @@
 
 .sub-block {
   padding: 14px;
-  border-radius: 18px;
-  border: 1px solid rgba(117, 132, 163, 0.16);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(248, 250, 254, 0.96));
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--color-ghost-gray);
 }
 
 .sub-block + .sub-block {
@@ -212,6 +214,8 @@
 .output-head h2 {
   margin: 0;
   font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
 }
 
 .section-head p,
@@ -268,11 +272,13 @@
 }
 
 .field-label {
-  font-weight: 600;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--ink);
 }
 
 .line-bank-path {
-  font-family: ui-monospace, "SFMono-Regular", "Cascadia Mono", "Consolas", monospace;
+  font-family: var(--font-mono);
   font-size: 0.82rem;
   line-height: 1.5;
   overflow-wrap: anywhere;

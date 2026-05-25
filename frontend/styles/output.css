@@ -1,30 +1,30 @@
 .message {
   padding: 12px 14px;
-  border-color: rgba(234, 123, 69, 0.2);
-  background: rgba(234, 123, 69, 0.09);
-  color: var(--accent);
+  border-color: rgba(194, 43, 16, 0.25);
+  background: rgba(194, 43, 16, 0.06);
+  color: var(--color-callout-red);
 }
 
 .warning-box {
   padding: 12px 14px;
-  border-color: rgba(148, 108, 18, 0.22);
-  background: rgba(148, 108, 18, 0.09);
+  border-color: rgba(115, 115, 115, 0.24);
+  background: var(--color-ghost-gray);
   color: #6e5310;
 }
 
 .status-line,
 .empty {
   padding: 16px;
-  background: rgba(255, 255, 255, 0.5);
+  background: var(--surface-strong);
   border-style: dashed;
 }
 
 .output-panel {
-  padding: 18px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  box-shadow: var(--shadow-strong);
+  box-shadow: var(--shadow);
 }
 
 .output-column {
@@ -46,7 +46,7 @@
 .action-dock-fade {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(246, 248, 252, 0), rgba(255, 255, 255, 0.9) 54%, rgba(255, 255, 255, 1));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.92) 54%, rgba(255, 255, 255, 1));
 }
 
 .action-dock {
@@ -79,7 +79,7 @@
 
 .dock-qty-label {
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--muted);
   line-height: 1;
   flex: 0 0 auto;
@@ -134,9 +134,9 @@
 }
 
 .generate-button {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 244, 238, 0.98));
-  color: var(--accent-strong);
-  border-color: rgba(217, 99, 46, 0.5);
+  background: var(--color-deep-black);
+  color: #ffffff;
+  border-color: var(--color-deep-black);
 }
 
 .action-dock-toolbar .reset-button {
@@ -164,8 +164,8 @@
   padding: 16px 18px;
   resize: vertical;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.72)),
-    repeating-linear-gradient(180deg, transparent 0, transparent 31px, rgba(53, 40, 28, 0.05) 31px, rgba(53, 40, 28, 0.05) 32px);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)),
+    repeating-linear-gradient(180deg, transparent 0, transparent 31px, rgba(0, 0, 0, 0.04) 31px, rgba(0, 0, 0, 0.04) 32px);
 }
 
 .preview-line,
@@ -217,7 +217,7 @@
 
 .divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--line), transparent);
+  background: var(--line);
   margin: 8px 0;
 }
 
@@ -252,9 +252,9 @@
 
 .debug-decision {
   padding: 12px 14px;
-  border-radius: 14px;
+  border-radius: 10px;
   border: 1px solid var(--line);
-  background: linear-gradient(180deg, #ffffff, var(--surface-tint));
+  background: var(--surface-strong);
 }
 
 .debug-decision-head {
@@ -298,15 +298,15 @@
 }
 
 .debug-signal.is-good {
-  background: rgba(93, 160, 104, 0.1);
-  border-color: rgba(93, 160, 104, 0.22);
-  color: #406a49;
+  background: rgba(16, 194, 43, 0.08);
+  border-color: rgba(16, 194, 43, 0.28);
+  color: #0b7f1d;
 }
 
 .debug-signal.is-warn {
-  background: rgba(234, 123, 69, 0.1);
-  border-color: rgba(234, 123, 69, 0.22);
-  color: #9c5b33;
+  background: rgba(194, 43, 16, 0.07);
+  border-color: rgba(194, 43, 16, 0.24);
+  color: var(--color-callout-red);
 }
 
 .debug-decision ul {

@@ -1,23 +1,34 @@
 :root {
-  --bg: #f6f8fc;
-  --bg-soft: #fcfdff;
-  --surface: rgba(255, 255, 255, 0.86);
+  --color-canvas-white: #ffffff;
+  --color-ghost-gray: #f2f2f2;
+  --color-subtle-ash: #e5e5e5;
+  --color-midtone-gray: #737373;
+  --color-rich-black: #0a0a0a;
+  --color-deep-black: #000000;
+  --color-callout-red: #c22b10;
+  --color-success-green: #10c22b;
+
+  --bg: var(--color-canvas-white);
+  --bg-soft: var(--color-ghost-gray);
+  --surface: var(--color-canvas-white);
   --surface-strong: #ffffff;
-  --surface-tint: #f7f9fd;
-  --ink: #1d2433;
-  --muted: #667085;
-  --line: rgba(117, 132, 163, 0.2);
-  --line-strong: rgba(117, 132, 163, 0.34);
-  --accent: #ea7b45;
-  --accent-strong: #d9632e;
-  --accent-soft: rgba(234, 123, 69, 0.12);
-  --ok: #2f7d62;
-  --warn: #9d6b20;
-  --shadow: 0 16px 48px rgba(34, 50, 84, 0.08);
-  --shadow-strong: 0 24px 72px rgba(34, 50, 84, 0.12);
-  --radius: 24px;
-  --font-ui: "Onest", "Segoe UI Variable Text", "Segoe UI", sans-serif;
-  --font-display: "Onest", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+  --surface-tint: var(--color-ghost-gray);
+  --ink: var(--color-rich-black);
+  --muted: var(--color-midtone-gray);
+  --line: var(--color-subtle-ash);
+  --line-strong: #a1a1a1;
+  --accent: var(--color-deep-black);
+  --accent-strong: var(--color-deep-black);
+  --accent-soft: var(--color-ghost-gray);
+  --ok: var(--color-success-green);
+  --warn: #8a6a00;
+  --shadow: oklab(0.145 -0.00000143796 0.00000340492 / 0.1) 0 0 0 1px;
+  --shadow-strong: oklab(0.145 -0.00000143796 0.00000340492 / 0.14) 0 0 0 1px;
+  --focus-ring: 0 0 0 2px #ffffff, 0 0 0 4px #0a0a0a;
+  --radius: 14px;
+  --font-ui: "Geist", "Inter", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+  --font-display: "Geist", "Inter", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", "IBM Plex Mono", "Cascadia Mono", "Consolas", monospace;
   --seg-subject: #b65222;
   --seg-outfit: #2f5ea8;
   --seg-pose: #7b4fc9;
@@ -35,11 +46,10 @@ body {
   margin: 0;
   min-height: 100%;
   color: var(--ink);
-  background:
-    radial-gradient(circle at top left, rgba(234, 123, 69, 0.14), transparent 22rem),
-    radial-gradient(circle at 82% 12%, rgba(130, 160, 214, 0.15), transparent 24rem),
-    linear-gradient(180deg, #fbfcff 0%, var(--bg) 48%, #f3f6fb 100%);
+  background: var(--bg);
   font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.43;
 }
 
 button,
